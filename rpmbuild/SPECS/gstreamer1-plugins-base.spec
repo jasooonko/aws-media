@@ -18,7 +18,7 @@ BuildRequires:  libtheora-devel >= 1.1
 BuildRequires:  libvisual-devel
 BuildRequires:  libvorbis-devel >= 1.0
 BuildRequires:  libXv-devel
-BuildRequires:  orc-devel >= 0.4.18
+BuildRequires:  orc-devel >= 0.4.16
 BuildRequires:  pkgconfig
 BuildRequires:  chrpath
 BuildRequires:  gtk-doc >= 1.3

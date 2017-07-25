@@ -12,7 +12,7 @@ Patch2:            libpng12-CVE-2013-6954.patch
 BuildRequires:     zlib-devel
 BuildRequires:     pkgconfig
 Obsoletes:         libpng-compat <= 2:1.5.10
-Obsoletes:         libpng <= 2:1.2.49
+Obsoletes:         libpng <= 2:1.2.50
 
 %description
 The libpng12 package provides libpng 1.2, an older version of the libpng
