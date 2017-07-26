@@ -15,7 +15,7 @@ Source5:       default.pa-for-gdm
 Patch1:        pulseaudio-autostart.patch
 BuildRequires: automake
 BuildRequires: libtool
-BuildRequires: pkgconfig(bash-completion)
+#BuildRequires: pkgconfig(bash-completion)
 BuildRequires: m4
 BuildRequires: libtool-ltdl-devel
 BuildRequires: intltool

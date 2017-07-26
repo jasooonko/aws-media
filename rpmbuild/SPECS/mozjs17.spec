@@ -48,12 +48,12 @@ chmod a+x configure
 CC=clang CXX=clang++ ./configure --disable-static --with-system-nspr --enable-threadsafe --enable-readline --prefix=%{_prefix} --libdir=%{_libdir}
 make %{?_smp_mflags}
 
-%check
-cat > js/src/config/find_vanilla_new_calls << EOF
-#!/bin/bash
-exit 0
-EOF
-make -C js/src check
+#%check
+#cat > js/src/config/find_vanilla_new_calls << EOF
+##!/bin/bash
+#exit 0
+#EOF
+#make -C js/src check
 
 %install
 make install DESTDIR=%{buildroot}
